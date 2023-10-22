@@ -1,0 +1,26 @@
+.containerHome {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.text {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 140.625%;
+}
+
+@media screen and (min-width: 1000px) {
+  .containerHome {
+    flex-direction: row;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
